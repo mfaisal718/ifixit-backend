@@ -40,6 +40,7 @@ const CustomersSchema = new mongoose.Schema({
   image: String,
   start: Number,
   finish: Number,
+  phone: Number,
 });
 
 const Customers = mongoose.model("Customers", CustomersSchema);
